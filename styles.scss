@@ -1,13 +1,18 @@
 body {
 	display: flex;
-	align-items: center;
+	//align-items: center;
 	justify-content: center;
 	font-family: 'Roboto';
+	text-align: center;
+	color: rgb(26, 26, 26);
+	background-color: rgb(252, 252, 252);
 
 	.content{
+		max-width: 50em;
+		margin-top: 7em;
 
 		h1 {
-			text-align: center;
+			margin: 1em 0;
 		}
 	}
 }

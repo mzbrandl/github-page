@@ -2,16 +2,21 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   font-family: 'Roboto';
+  text-align: center;
+  color: #1a1a1a;
+  background-color: #fcfcfc;
+}
+
+body .content {
+  max-width: 50em;
+  margin-top: 7em;
 }
 
 body .content h1 {
-  text-align: center;
+  margin: 1em 0;
 }
 /*# sourceMappingURL=styles.css.map */
