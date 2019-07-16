@@ -1,6 +1,5 @@
 body {
 	display: flex;
-	//align-items: center;
 	justify-content: center;
 	font-family: 'Roboto';
 	text-align: center;
@@ -8,11 +7,22 @@ body {
 	background-color: rgb(252, 252, 252);
 
 	.content{
+		display: flex;
+		flex-direction: column;
 		max-width: 50em;
 		margin-top: 7em;
 
 		h1 {
 			margin: 1em 0;
+		}
+
+		ul {
+			padding: 0;
+			
+			li {
+				padding: 0.5em 0;
+				list-style: none;
+			}
 		}
 	}
 }

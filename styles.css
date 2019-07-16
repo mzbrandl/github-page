@@ -12,11 +12,27 @@ body {
 }
 
 body .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   max-width: 50em;
   margin-top: 7em;
 }
 
 body .content h1 {
   margin: 1em 0;
+}
+
+body .content ul {
+  padding: 0;
+}
+
+body .content ul li {
+  padding: 0.5em 0;
+  list-style: none;
 }
 /*# sourceMappingURL=styles.css.map */
