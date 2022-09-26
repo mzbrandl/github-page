@@ -1,37 +1,59 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>Moritz Brandl</title>
-		<link rel="stylesheet" type="text/css" href="styles.css" />
-		<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-		<script src="https://kit.fontawesome.com/9be45e0210.js"></script>
-	</head>
-	<body>
-		<div class="content">
-			<h1>Moritz Brandl</h1>
-			<ul class="links">
-				<li>
-					<a href="https://github.com/mzbrandl">
-						<i class="fab fa-github"></i>
-						Github
-					</a>
-				</li>
-				<li>
-					<a href="https://www.spotitools.com">
-						Spotitools
-					</a>
-				</li>
-				<li>
-					<a href="https://ttscores.tk">
-						TT-Scores
-					</a>
-				</li>
-				<li>
-					<a href="https://mzbrandl.github.io/binary-search">
-						Binary Search
-					</a>
-				</li>
-			</ul>
-		</div>
-	</body>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio site of web developer Moritz Brandl.">
+  <title>Moritz Brandl</title>
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16.png">
+  <link rel="preload" href="/fonts/jost-v14-latin-regular.woff" as="font" type="font/woff" crossorigin>
+  <link rel="preload" href="/fonts/jost-v14-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/jost-v14-latin-500.woff" as="font" type="font/woff" crossorigin>
+  <link rel="preload" href="/fonts/jost-v14-latin-500.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+  <header>
+    <div id="header-content">
+      <h1>Moritz Brandl</h1>
+      <p>Web Developer based in Vienna, Austria</p>
+    </div>
+  </header>
+  <main>
+    <ul id="projects">
+      <li class="card" id="leisureme-card">
+        <img src="./images/leisure-me.jpg" alt="LeisureMe preview">
+        <h2><a href="https://leisureme.com/demo/" title="Visit LeisureMe">LeisureMe</a></h2>
+        <p>A platform that lets users discover and share leisure activities in their area.</p>
+        <p>Technologies used: C#, React, TypeScript, SCSS, <a href="https://ionicframework.com/">Ionic</a></p>
+      </li>
+      <li class="card" id="spotitools-card">
+        <img src="./images/spotitools.jpg" alt="Spotitools preview">
+        <h2><a href="https://www.spotitools.com/" title="Visit Spotitools">Spotitools</a></h2>
+        <p>Offers some useful features for managing your Spotify library.</p>
+        <p>Technologies used: Express, React, Typescript, SCSS, <a
+            href="https://developer.spotify.com/documentation/web-api/">Spotify API</a></p>
+      </li>
+      <li class="card" id="binarysearch-card">
+        <img src="./images/binary-search.jpg" alt="Binary Search preview">
+        <h2>
+          <a href="https://mzbrandl.github.io/binary-search/" title="Visit Binary Search">Binary Search</a>
+        </h2>
+        <p>An animated visualization of a binary search algorithm.</p>
+        <p>Technologies used: Svelte, HTML, CSS</p>
+      </li>
+    </ul>
+  </main>
+  <footer>&#169; Moritz Brandl 2022</footer>
+
+  <!-- Cloudflare Web Analytics -->
+  <script defer src='https://static.cloudflareinsights.com/beacon.min.js'
+    data-cf-beacon='{"token": "39b90cad65d547728af48a7d24130b06"}'></script><!-- End Cloudflare Web Analytics -->
+</body>
+
 </html>
